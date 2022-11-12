@@ -140,7 +140,18 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background: var(--color-background);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
+
 .section-container {
   display: flex;
   align-items: center;
@@ -292,6 +303,24 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
+.worcker-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.worcker-soc-item {
+  width: 44px;
+  height: 44px;
+  background: var(--color-hover-focus);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.worcker-soc-link {
+}
+.barbers-soc-icon {
+}
 .igor {
   background: url(4853.jpg);
   border-radius: 0px;
@@ -395,6 +424,11 @@ img {
   background: var(--team-background);
   border-radius: 4px;
 }
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .portfolio-list > .portfolio-list-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -424,7 +458,12 @@ img {
   list-style: none;
 }
 .project-items {
+  background: var(--color-section-title);
   flex-basis: calc((100% - 600px) / 3);
+}
+.project-items:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-name {
   border: 1px solid #eeeeee;
