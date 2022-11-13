@@ -82,7 +82,7 @@ img {
 /*nav*/
 .nav {
   gap: 50px;
-  margin-right: 344px;
+  margin-right: 318px;
   list-style: none;
   display: flex;
 }
@@ -153,15 +153,22 @@ img {
 
 */
 .list {
+  gap: 30px;
   align-items: center;
   display: flex;
   list-style: none;
 }
 .list-item {
+  align-items: center;
+  display: flex;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1428;
   letter-spacing: 0.02em;
+}
+.list-link:hover .list-icon,
+.list-link:focus .list-icon {
+  fill: var(--color-hover-focus);
 }
 .list-mail-icon {
   width: 16px;
@@ -182,7 +189,7 @@ img {
   fill: var(--color-text);
 }
 .list-contact {
-  margin-right: 50px;
+  margin-left: 10px;
   color: var(--color-text);
   text-decoration: none;
 }
