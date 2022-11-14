@@ -129,16 +129,16 @@ img {
   letter-spacing: 0.02em;
 }
 .list-mail-icon {
-  margin-right: 10px;
-  fill: currentColor;
   width: 16px;
   height: 12px;
-}
-.list-tel-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+.list-tel-icon {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 .list-contact {
   align-items: center;
