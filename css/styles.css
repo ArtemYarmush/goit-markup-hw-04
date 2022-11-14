@@ -191,6 +191,7 @@ img {
   color: var(--color-section-title);
 }
 .section-btn {
+  background-color: var(--color-hover-focus);
   min-width: 216px;
   height: 50px;
   margin-top: 30px;
