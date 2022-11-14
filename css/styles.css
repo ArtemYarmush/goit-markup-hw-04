@@ -356,14 +356,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-/*fill: var(--icon-corlor);
-}
-.worcker-soc-link:hover,
-.worcker-soc-link:focus {
-  background: var(--color-hover-focus);
-  fill: var(--color-footer-logo);
-}*/
 .worcker-soc-link:hover,
 .worcker-soc-link:focus {
   background-color: var(--color-hover-focus);
@@ -443,6 +435,18 @@ img {
 }
 .footer-container {
   display: flex;
+}
+.section-addres-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .footer-logo {
   padding-bottom: 20px;
